@@ -43,21 +43,19 @@ Tecnologias que usei para desenvolver o back-end da aplicação:
 
 - Jsonwebtoken
 
+- Socket.io
+
 ## 🚀 Tecnologias Front-end
 
 Tecnologias que usei para desenvolver o front-end da aplicação:
 
-- 
+- Axios
 
-- 
+- React-js
 
-- 
+- Vite-js
 
-- 
-
-- 
-
-- 
+- Sass
 
 ## 💻 Como começar
 
@@ -78,11 +76,11 @@ $ npm install
 
 # Altere suas variáveis ambiente com API Hygraph
 
-$ VITE_API_URL
+$ GITHUB_CLIENT_SECRET, GITHUB_CLIENT_ID e JWT_SECRET 
 
 # Para inicializar o projeto:
 
-$ npm run dev
+$ npm run dev (web e server)
 
 # Visite no seu navegador:
 
