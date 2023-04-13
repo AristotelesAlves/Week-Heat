@@ -1,10 +1,3 @@
-// receber o code(string)
-// recuperar o access_token no github  ( acesso aos dados do user )
-// verificar se o user existe no DB 
-// ----- SIM = gera um token
-// ----- NÃO = cria no db, gera um token
-// retornar o token com as infos do user
-
 import axios from "axios"
 import prismaClient from "../prisma";
 import { sign } from "jsonwebtoken"
